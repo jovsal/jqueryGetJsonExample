@@ -1,0 +1,53 @@
+.usernameMain {
+	color: black;
+    text-align: center;
+    font-size: 24px;
+}
+
+.pictureMain {
+	width: 200px;
+	height: 200px;
+}
+
+.user-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: solid #e6e4e4 2px;
+	width: 230px;
+	float: left;
+	margin: 10px;
+	padding-bottom: 15px;
+}
+.user-card:hover {
+	webkit-box-shadow: 10px 10px 40px 10px gray;
+	moz-box-shadow: 10px 10px 40px 10px gray;
+	box-shadow: 10px 10px 40px 10px rgba(125,125,125,0.4);
+	background-color: ghostwhite;
+}
+
+
+.github-icon {
+	width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.modal-bg {
+	position: absolute;
+    background-color: rgba(104, 104, 104, 0.69);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: 0;
+}
+
+.modal-base{
+	width: 800px;
+    height: 350px;
+    background: white;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid #7d7d7d;
+}
